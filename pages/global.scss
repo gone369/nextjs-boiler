@@ -18,3 +18,9 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+input,
+textarea {
+  border-radius: 3px;
+  border: 1px solid black;
+}

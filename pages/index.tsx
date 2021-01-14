@@ -2,6 +2,8 @@ import Head from 'next/head';
 import styles from './index.module.scss';
 import { name } from '../package.json';
 
+import Aggregator from '@/components/Aggregator';
+
 const Home: React.FC<any> = () => {
   return (
     <div className={styles.root}>
@@ -10,7 +12,7 @@ const Home: React.FC<any> = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="py-8 container mx-auto">aggregator</div>
+      <Aggregator />
     </div>
   );
 };
